@@ -35,7 +35,7 @@ a{
  .header{
     position:relative;
     height: 200px;
-    background-color: #465c5a;
+    background:transparent;
  }
 
  .header .text{
@@ -69,7 +69,7 @@ a{
 
  .rightArea{
     width: 70%;
-    background-color: rgb(66, 87, 84);
+    background: transparent;
  }
 
  .education{
