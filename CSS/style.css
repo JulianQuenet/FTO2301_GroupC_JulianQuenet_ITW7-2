@@ -30,7 +30,9 @@ a{
  .Resume{
     width: 80%;
     margin: 0px auto;
-    background: white url(../Images/2.jpg)
+    background: rgb(77, 92, 90) url(../Images/2.jpg);
+    box-shadow: 0 0 50px rgb(0, 0, 0);
+    border-radius: 15px;
  }
 
  .header{
@@ -66,6 +68,8 @@ a{
  .leftArea{
     width: 30%;
     background-color: rgb(60, 75, 73);
+    box-shadow: 0 0 50px rgb(0, 0, 0);
+    border-radius: 10px;
  }
 
  .rightArea{
@@ -141,9 +145,16 @@ img.top:hover{
    color: white;
 }
 
-h4{
+.education h4{
    margin-left: 10px;
-   color: rgb(142, 180, 180);
+   color: rgb(0, 0, 0);
+   font-weight: bold;
+}
+
+.experience h4{
+    color: rgb(0, 168, 0);
+    margin-left: 10px;
+    font-weight: bold;
 }
 
 .Icons{
@@ -156,85 +167,37 @@ h4{
 
 }
 
-img.A:hover{
-    cursor: pointer;
-    transform: scale(1.3);
-    transition: 0.45s;
-    box-shadow: 0 0 10px #C91E29;
-    border-radius: 50%;
-    animation: logo 0.65s 1;
+label{
+    color: white;
+    display: block;
+    width: 150px;
+    text-align: left;
+ }
+
+ input{
+    width: 159px;
 }
 
-img.B:hover{
-    cursor: pointer;
-    transform: scale(1.3);
-    transition: 0.45s;
-    box-shadow: 0 0 10px #116BB1;
-    border-radius: 50%;
-    animation: logo 0.65s 1;
+form{
+    padding: 10px;
 }
 
-img.C:hover{
-    cursor: pointer;
-    transform: scale(1.3);
-    transition: 0.45s;
-    box-shadow: 0 0 10px #3D0202;
-    border-radius: 50%;
-    animation: logo 0.65s 1;
-}
-
-img.D:hover{
-    cursor: pointer;
-    transform: scale(1.3);
-    transition: 0.45s;
-    box-shadow: 0 0 10px #025987;
-    border-radius: 50%;
-    animation: logo 0.65s 1;
+span{
+    color: #ff0818;
 }
 
 
+.header img{
+    cursor: pointer;
+}
 
-@keyframes logo {
-    0%{
-        transform: rotate(0);
-    }
+.header img:hover{
+    transform: scale(1.2);
+    transition: 0.3s;
 
-    100%{
-        transform: rotate(360deg);
-    }
-
-    }
+}
 
 
-    label{
-        color: white;
-        display: block;
-        width: 150px;
-        text-align: left;
-    }
-
-    input{
-        width: 159px;
-    }
-
-    form{
-        padding: 10px;
-    }
-
-    span{
-        color: #ff0818;
-    }
-
-
-    .header img{
-        cursor: pointer;
-    }
-
-    .header img:hover{
-        transform: scale(1.2);
-        transition: 0.3s;
-
-    }
 
    
 
