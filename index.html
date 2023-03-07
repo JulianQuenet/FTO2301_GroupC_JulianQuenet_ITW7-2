@@ -12,7 +12,26 @@
     <div class="Resume">
       <header>
         <div class="header">
-          <img src="Images/face.png" alt="Portrait picture" />
+          <picture>
+            <source
+              srcset="./Images/face.jpg"
+              media="(max-width: 850px)"
+              width="120px"
+              height="100px"
+            />
+            <source
+              srcset="./Images/fs.jpg"
+              media="(max-width: 1000px)"
+              width="150px"
+              height="120px"
+            />
+            <img
+              src="Images/waist&should..jpg"
+              alt="Portrait picture"
+              width="160px"
+              height="140px"
+            />
+          </picture>
           <div class="text">
             <h1>Julian Quenet</h1>
             <p>Aspiring Software Developer</p>
