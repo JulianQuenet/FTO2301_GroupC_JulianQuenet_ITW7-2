@@ -16,7 +16,6 @@ a{
    color: rgb(57, 185, 101);
 }
 
-
  .header img{
     width: 160px;
     height: 140px;
@@ -37,7 +36,7 @@ a{
 
  .header{
     position:relative;
-    height: 200px;
+    height: 230px;
     background:transparent;
  }
 
@@ -49,15 +48,22 @@ a{
 
  .menu{
     position:relative;
-    margin-right: 620px;
-    padding-top: 130px;
-    
-
+    text-align: left;
+    padding-top: 60px;
+ }
+ 
+ .menu h2{
+    padding-left: 25px;
  }
 
- .menu a{
-   margin-left:2px;
-   padding-right: 5px;
+ .menu ul{
+    display: inline-block;
+    list-style: none;
+ }
+
+ .menu ul li{
+    text-align: left;
+    padding: 5px;
  }
 
  .mainContent{
@@ -128,21 +134,15 @@ img.top{
     cursor: pointer;
 }
 
+
 img.top:hover{
-    transform: scale(1.15);
+    transform: scale(1.25);
     transition: 0.3s;
 }
 
+
 .CD p{
     color: rgb(255, 255, 255);
-}
-
-.CD a{
-   color: white;
-}
-
-.CD u{
-   color: white;
 }
 
 .education h4{
@@ -172,9 +172,10 @@ label{
     display: block;
     width: 150px;
     text-align: left;
- }
+}
 
- input{
+
+input{
     width: 159px;
 }
 
@@ -191,12 +192,18 @@ span{
     cursor: pointer;
 }
 
+
 .header img:hover{
     transform: scale(1.2);
     transition: 0.3s;
-
 }
 
+
+  
+
+
+  
+   
 
 
    
