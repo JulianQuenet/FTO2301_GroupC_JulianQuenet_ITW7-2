@@ -30,6 +30,7 @@ a{
  .Resume{
     width: 80%;
     margin: 0px auto;
+    background: white url(../Images/2.jpg)
  }
 
  .header{
@@ -234,4 +235,6 @@ img.D:hover{
         transition: 0.3s;
 
     }
+
+   
 
