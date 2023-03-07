@@ -46,3 +46,13 @@ img.D:hover{
     }
 
 }
+
+.header img:hover{
+      transform: scale(1.2);
+      transition: 0.35s;
+}
+
+.menu a:hover{
+    transform: scale(1.25);
+    transition: 0.25s;
+}

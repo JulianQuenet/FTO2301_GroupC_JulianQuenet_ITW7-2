@@ -24,6 +24,7 @@ a{
     right: 95px;
     top: 20px;
     border: 5px  solid white;
+    cursor: pointer;
  }
 
  .Resume{
@@ -36,7 +37,7 @@ a{
 
  .header{
     position:relative;
-    height: 230px;
+    height: 200px;
     background:transparent;
  }
 
@@ -47,9 +48,9 @@ a{
  }
 
  .menu{
-    position:relative;
-    text-align: left;
+    position:static;
     padding-top: 60px;
+    text-align: left;
  }
  
  .menu h2{
@@ -187,16 +188,6 @@ span{
     color: #ff0818;
 }
 
-
-.header img{
-    cursor: pointer;
-}
-
-
-.header img:hover{
-    transform: scale(1.2);
-    transition: 0.3s;
-}
 
 
   
