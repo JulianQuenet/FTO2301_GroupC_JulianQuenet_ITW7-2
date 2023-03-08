@@ -1,6 +1,6 @@
 # Resume7-2
 
-Forming part of the Intro to Web resume projects, this being the 7th iteration #2, integrating image optomization.
+Forming part of the Intro to Web resume projects, this being the 7th iteration #2, integrating image optimization.
 
 Icons used were available for free at https://icons8.com/ & https://boxicons.com/ 
 
